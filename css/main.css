@@ -3,9 +3,10 @@ body,html{
   padding:0;
 }
 
+
 .navbar-brand img{
   width: auto;
-  height: 25px;
+  height: 52px;
 
 }
 
@@ -18,10 +19,11 @@ body,html{
 .navbar-default .navbar-nav>li>a{
   color: #F66D6D;
   font-family: 'Montserrat', sans-serif;
+  margin: 10px;
 }
 
 .carousel-caption {
-  padding-bottom: 141.5px;
+  text-align-last: center;
 }
 
 .carousel-inner {
@@ -30,11 +32,59 @@ body,html{
 }
 
 .carousel-control{
-  opacity: 0;
+  width: auto;
+  height: auto;
 
 }
 .carousel-inner img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  
+
+}
+
+.carousel-caption h1 {
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+hr {
+  width: 60%;
+  border: solid;
+  height: 1.5px;
+  border-color: #979797;
+  background-color: #979797;
+
+}
+
+.row .col-md-12 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  color: #F66D6D;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+
+
+}
+.row .col-md-12 p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+
+}
+
+.carousel-caption a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.carousel-caption a:hover {
+  color: #E49B9B;
+  text-decoration: none;
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
 }
