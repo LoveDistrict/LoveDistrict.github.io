@@ -146,6 +146,7 @@ hr {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 50px;
 }
+<<<<<<< HEAD
 .mytophotel{
   text-align: center;
   padding: 10px 50px 10px 50px;
@@ -204,4 +205,44 @@ hr {
 .map{
   padding: 30px 30px;
   
+=======
+.content-top-10 img {
+  width: 80%;
+  height: 80%;
+
+}
+.content-top-10 h1 {
+  text-align: left;
+  color: #F66D6D;;
+  text-decoration: none;
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 125px;
+}
+.trv-content img {
+  width: 80%;
+  height: 80%;
+  margin-bottom: 50px;
+}
+.trv-content p {
+  margin-bottom: 50px;
+}
+.logo-content {
+  margin-top: 30px;
+}
+.img-rounded {
+  height: 50%;
+  width: 50%;
+
+}
+.logo-content {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.map iframe {
+  width: 80%;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+>>>>>>> origin/master
 }
