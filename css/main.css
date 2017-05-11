@@ -1,6 +1,7 @@
 body,html{
   margin: 0;
   padding:0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -144,4 +145,63 @@ hr {
 
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 50px;
+}
+.mytophotel{
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+.mytophotel h1{
+
+  text-transform: uppercase;
+  color: #F66D6D;
+  font-weight: bold;
+}
+.firsthotel{
+  text-align: center;
+  padding: 10px 50px 10px 50px;
+}
+.firsthotel h1{
+  text-align: left;
+  text-transform: uppercase;
+  color: #F66D6D;
+  font-weight: bold;
+}
+.firsthotel .img-responsive img{
+  width: 70%;
+}
+.content-contact{
+  text-align: center;
+  padding: 10px 50px 40px 50px;
+}
+.footer{
+  padding-top: 50px;
+  text-align: center;
+  opacity: 0.7;
+}
+.header{
+  text-align: center;
+}
+.header h1{
+  text-transform: uppercase;
+  color: #F66D6D;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.header p{
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+.row .col-md-4{
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.row .col-md-4 h4{
+  text-transform: uppercase;
+  color: #F66D6D;
+  font-weight: bold;
+}
+.map{
+  padding: 30px 30px;
+  
 }
