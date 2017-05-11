@@ -28,7 +28,7 @@ body,html{
 
 .carousel-inner {
   display: run-in;
-
+  margin-bottom: 30px;
 }
 
 .carousel-control{
@@ -39,6 +39,7 @@ body,html{
 .carousel-inner img {
   width: 80%;
   height: auto;
+  display: block;
 
 }
 
@@ -50,10 +51,10 @@ body,html{
 }
 hr {
   width: 60%;
-  border: solid;
-  height: 1.5px;
+  height: 1px;
   border-color: #979797;
   background-color: #979797;
+
 
 }
 
@@ -74,12 +75,16 @@ hr {
   text-align: center;
 
 }
+.carousel-caption {
 
+
+}
 .carousel-caption a {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 54px;
   font-family: 'Montserrat', sans-serif;
+
 
 }
 .carousel-caption a:hover {
@@ -87,4 +92,56 @@ hr {
   text-decoration: none;
   font-size: 54px;
   font-family: 'Montserrat', sans-serif;
+}
+.glyphicon-chevron-right:before  {
+  content: none;
+}
+@media screen and (max-width:632px) {
+
+}
+.content-hotel {
+  width: 80%;
+  height: auto;
+  background: url("../img/test.png") ;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  margin-bottom: 30px;
+
+}
+.content-hotel h1 {
+  padding-top: 270px;
+  color: #FFFFFF;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+.content-restaurant {
+  width: 80%;
+  height: auto;
+  background: url("../img/test.png") ;
+  background-repeat: no-repeat;
+  min-height: 600px;
+
+}
+.content-restaurant h1 {
+  padding-top: 270px;
+  color: #FFFFFF;
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+.content-travel {
+  width: 80%;
+  height: auto;
+  background: url("../img/test.png") ;
+  background-repeat: no-repeat;
+  min-height: 600px;
+
+}
+.content-travel h1 {
+  padding-top: 270px;
+  color: #FFFFFF;
+
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
 }
