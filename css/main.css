@@ -1,3 +1,40 @@
-.nav {
-  align-items: center;
+body,html{
+  margin: 0;
+  padding:0;
+}
+
+.navbar-brand img{
+  width: auto;
+  height: 25px;
+
+}
+
+
+.navbar-default{
+  background-color: #ffffff;
+  border: none;
+
+}
+.navbar-default .navbar-nav>li>a{
+  color: #F66D6D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-caption {
+  padding-bottom: 141.5px;
+}
+
+.carousel-inner {
+  display: run-in;
+
+}
+
+.carousel-control{
+  opacity: 0;
+
+}
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  
 }
