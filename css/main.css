@@ -204,3 +204,36 @@ hr {
 }
 .map{
   padding: 30px 30px;
+}
+.btn-primary {
+  background-color: inherit;
+  border: none;
+  border-color: inherit;
+  color: #E47b7b;
+
+}
+.btn-primary:hover{
+  background-color: inherit;
+  border-color: inherit;
+  color: #e49b9b;
+
+}
+.btn-primary.focus, .btn-primary:focus{
+  background-color: inherit;
+  border-color: inherit;
+  border: none;
+  color: #e49b9b;
+}
+.modal-body {
+  text-align: center;
+}
+.modal-body a {
+  color: #E47b7b;
+}
+.modal-header {
+  color: #E47b7b;
+  text-align: center;
+}
+.modal-footer {
+  color: #E47b7b;
+}
