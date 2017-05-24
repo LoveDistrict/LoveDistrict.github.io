@@ -62,50 +62,76 @@ hr {
 
 }
 .content-hotel {
-  width: 80%;
+  width: 100%;
   height: auto;
-  background: url("../img/test.png") ;
+  background: url("../hotels/home/hotel.jpg") ;
+
   background-repeat: no-repeat;
   min-height: 600px;
   margin-bottom: 30px;
-
 }
-.content-hotel h1 {
-  padding-top: 270px;
-  color: #FFFFFF;
-
-  font-family: 'Montserrat', sans-serif;
-
+.row{
+  margin-bottom: -100px;
+}
+.content-hotel h1{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.content-hotel h1 a{
+  text-decoration: none;
+  color: #d87575;
+  font-weight: bold;
+}
+.content-hotel h1 a:hover{
+  color: #ffa3a3;
 }
 .content-restaurant {
-  width: 80%;
+  width: 100%;
   height: auto;
-  background: url("../img/test.png") ;
+  background: url("../hotels/home/food.jpg") ;
+
   background-repeat: no-repeat;
   min-height: 600px;
 
 }
 .content-restaurant h1 {
-  padding-top: 270px;
-  color: #FFFFFF;
-
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
   font-family: 'Montserrat', sans-serif;
 
 }
+.content-restaurant h1 a{
+  text-decoration: none;
+  color: #d87575;
+  font-weight: bold;
+}
+.content-restaurant h1 a:hover{
+  color: #ffa3a3;
+}
 .content-travel {
-  width: 80%;
+  width: 100%;
   height: auto;
-  background: url("../img/test.png") ;
+  background: url("../hotels/home/travel.jpg") ;
   background-repeat: no-repeat;
   min-height: 600px;
 
 }
 .content-travel h1 {
-  padding-top: 270px;
+  text-align: center;
+  padding-top: 50px;
   color: #FFFFFF;
-
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 50px;
+}
+.content-travel h1 a{
+  text-decoration: none;
+  color: #d87575;
+  font-weight: bold;
+}
+.content-travel h1 a:hover{
+  color: #ffa3a3;
 }
 
 .mytophotel{
