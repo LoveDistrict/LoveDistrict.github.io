@@ -149,7 +149,7 @@ hr {
   padding: 10px 50px 10px 50px;
 }
 .firsthotel h1{
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
   color: #F66D6D;
   font-weight: bold;
@@ -161,6 +161,7 @@ hr {
   text-align: center;
   padding: 10px 50px 40px 50px;
 }
+
 .footer{
   padding-top: 50px;
   text-align: center;
